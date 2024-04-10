@@ -13,7 +13,7 @@ The choices:
 - [Focus: Infrastructure](choices/infrastructure.md)
 - [Focus: Data Analysis](choices/data-analysis.md)
 
-When completing your minimal project's tasks, make sure to document your code and maintain readability&mdash;we aim to open source all of our lab's code, and the entire research community benefits from code they can read, understand, and reuse.
+When completing your minimal project's tasks, make sure to document your code and maintain readability&mdash;the entire research community benefits from code they can read, understand, and reuse.
 
 ### Submission
 
