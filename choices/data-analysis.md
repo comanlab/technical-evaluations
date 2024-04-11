@@ -16,7 +16,7 @@ We want to analyze [Ron Swanson](https://en.wikipedia.org/wiki/Ron_Swanson)’s 
 
 Suppose we want to analyze the emotional expression of at least 250 unique Ron Swanson quotes from the public API. To collect that many quotes, we need to call the API more than once — there’s a response limit of ~108 quotes for any given call to the `/v2/quotes/<count>` endpoint. Once we have the required number of unique quotes, we need to clean the text as preparation for sentiment analysis, for which we will use VADER. 
 
-**Your task is to implement a collection of methods that enable us to collect and classify sentiment in at least 250 unique Ron Swanson quotes.** You should try to do the following features in your solution:
+**Your task is to implement a collection of methods that enable us to collect and classify sentiment in at least 250 unique Ron Swanson quotes.** You should try to accomplish the following in your solution:
 
 1. Handle API requests, accounting for status codes and encodings of responses. Response errors should be handled gracefully and not stop your data collection process.
 2. Compile 250 unique quotes into a single list. This API does track state for clients, so the same quote may be returned in many responses. (The same is true for many of the APIs we work with in our lab.)
