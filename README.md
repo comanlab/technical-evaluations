@@ -6,7 +6,7 @@ Welcome to CiCL's technical evaluation repo 👋 Its contents include tasks that
 
 We are excited to see how you think about solving the sorts of problems we face in pursuing our research. The majority of our technical work focuses on either infrastructure development or big data analysis, and we've designed minimal projects related to both that will help us evaluate your technical skills before joining CiCL.
 
-We ask that you spend **no more than 3 hours** on **one** minimal project. We do not expect you to provide a full end-to-end solution, and are most interested in the decisions you make to approach solving the problem, and why.
+We ask that you spend **no more than 3 hours** on **one** minimal project. We do not expect you to provide a full end-to-end solution, and are most interested in the decisions you make to approach solving the problem, including _why_.
 
 The choices:
 
