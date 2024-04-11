@@ -19,7 +19,7 @@ Suppose we want to analyze the emotional expression of at least 250 unique Ron S
 **Your task is to implement a collection of methods that enable us to collect and classify sentiment in at least 250 unique Ron Swanson quotes.** You should try to accomplish the following in your solution:
 
 1. Handle API requests, accounting for status codes and encodings of responses. Response errors should be handled gracefully and not stop your data collection process.
-2. Compile 250 unique quotes into a single list. This API does track state for clients, so the same quote may be returned in many responses. (The same is true for many of the APIs we work with in our lab.)
+2. Compile 250 unique quotes into a single list. This API does _not_ track state for clients, so the same quote may be returned in many responses. (The same is true for many of the APIs we work with in our lab.)
 3. Clean the text only to the extent recommended for the VADER model.
 4. Apply VADER’s sentiment intensity analyzer to every quote, labeling each text as positive, neutral, or negative.
 5. Return a bar chart comparing counts of each sentiment class.
