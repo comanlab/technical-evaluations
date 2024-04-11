@@ -23,7 +23,7 @@ Suppose we recruited 8 participants who are waiting in a lobby to join an experi
 3. Remove a participant at random from the first round so only five positions are filled in the network.
 4. Replace the removed participant with the earliest-created participant remaining in the lobby in the second round of conversations.
 5. Return data for the experiment showing which participants had conversations in each round and with whom.
-6. _Challenge_: Expand your solution to enable _n_ experiments to run simultaneously, where there is a 50% chance that one participant drops out in the first round of conversation in a given experiment. You may assume 7 * _n_ participants are recruited and waiting in a lobby.
+6. _Challenge_: Expand your solution to enable _n_ experiments to run simultaneously, where there is a 50% chance that one participant drops out in the first round of conversation in any given experiment. You may assume 7 * _n_ participants are recruited and waiting in a lobby.
 
 ## Sample Data
 
