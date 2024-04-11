@@ -24,3 +24,4 @@ Suppose we want to analyze the emotional expression of all unique quotes from th
 4. Apply VADER’s sentiment intensity analyzer to every quote and use the scores to label each text as either positive, neutral, or negative.
 5. Return a chart that compares sentiment labels between characters' quotes in The Office.
 6. Return a chart that compares the distribution of sentiment scores between characters' quotes.
+7. _Challenge_: Compute the semantic similarity of quotes using [sentence-transformers](https://github.com/UKPLab/sentence-transformers) and the cosine similarity approach, then compare aggregate similarity scores bewteen Michael Scott and Dwight Schrute quotes.
