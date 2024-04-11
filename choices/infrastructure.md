@@ -19,7 +19,7 @@ Suppose we recruited 8 participants who are waiting in a lobby to join an experi
 **Your task is to implement a collection of methods that enable a complete experiment to run even when one of the participants drops out in the first round of conversations**. You should try to accomplish the following in your solution:
 
 1. Select the 6 earliest-created participants from the lobby and randomly assign them to positions in the network, using the nodes as defined in the [network data structure](#network-structure) below. (This is similar to the output of [NetworkX](https://networkx.org/documentation/stable/) graph generators that we use to model more complex network structures for our experiments.)
-2. Split the rounds of conversation into separate objects that demonstrate (a) which participants are in that round and (b) who their conversation partners are.
+2. Split the rounds of conversation into separate objects that demonstrate (a) which participants are in each round and (b) who their conversation partners are.
 3. Remove a participant at random from the first round so only five positions are filled in the network.
 4. Replace the removed participant with the earliest-created participant remaining in the lobby in the second round of conversations.
 5. Return data for the experiment showing which participants had conversations in each round and with whom.
