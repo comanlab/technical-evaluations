@@ -14,7 +14,7 @@ We want to run an experiment with a 6-person network where every participant com
 
 ## Prompt
 
-Suppose we recruited 8 participants who are waiting in a lobby to join an experiment. We have a [list of those participants](#participants), including unique alphabetical identifiers A, B, …, G, H and the time they were created. To start the experiment, we need to randomly select and assign participants to a predefined lattice network with 6 nodes and 6 edges, where each node is connected to only two unique others. This structure enables an experiment that includes two “rounds” (labeled 0 and 1) of three unique dyadic conversations per participant.
+Suppose we recruited 8 participants who are waiting in a lobby to join an experiment. We have a [list of those participants](#participants), including unique alphabetical identifiers A, B, …, G, H and the time they were created. To start the experiment, we need to randomly select and assign participants to a predefined lattice network with 6 nodes and 6 edges, where each node is connected to only two unique others. This structure enables an experiment that includes two “rounds” (labeled 0 and 1) of three unique dyadic conversations in each.
 
 **Your task is to implement a collection of methods that enable a complete experiment to run even when one of the participants drops out in the first round of conversations**. You should try to do the following features in your solution:
 
