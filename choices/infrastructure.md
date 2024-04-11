@@ -14,15 +14,18 @@ We want to run an experiment with a 6-person network where every participant com
 
 ## Prompt
 
-Suppose we recruited 8 participants who are waiting in a lobby to join an experiment. We have a [list of those participants](#participants), including unique alphabetical identifiers A, B, …, G, H and the time they were created. To start the experiment, we need to randomly select and assign participants to a predefined lattice network with 6 nodes and 6 edges, where each node is connected to only two unique others. This structure enables an experiment that includes two “rounds” (labeled 0 and 1) of three unique dyadic conversations in each.
+Suppose we recruited 8 participants who are waiting in a lobby to join an experiment. We have a [list of those participants](#participants) within the [sample data](#sample-data) section below, including unique alphabetical identifiers A, B, …, G, H and the time they were created. To start the experiment, we need to randomly select and assign participants to a predefined lattice network with 6 nodes and 6 edges, where each node is connected to only two unique others. This structure enables an experiment that includes two “rounds” (labeled 0 and 1) of three unique dyadic conversations in each.
 
-**Your task is to implement a collection of methods that enable a complete experiment to run even when one of the participants drops out in the first round of conversations**. You should try to accomplish the following in your solution:
+**Your task is to implement a collection of methods that would enable a complete experiment to run even when one of the participants drops out in the first round of conversations**. You should try to accomplish the following in your solution:
 
-1. Select the 6 earliest-created participants from the lobby and randomly assign them to positions in the network, using the nodes as defined in the [network data structure](#network-structure) below. (This is similar to the output of [NetworkX](https://networkx.org/documentation/stable/) graph generators that we use to model more complex network structures for our experiments.)
+1. Select the 6 earliest-created participants from the lobby and randomly assign them to positions in the network, using the nodes as defined in the sample [network data structure](#network-structure) below. (This is similar to the output of [NetworkX](https://networkx.org/documentation/stable/) graph generators that we use to model more complex network structures for our experiments.)
 2. Split the rounds of conversation into separate objects that demonstrate (a) which participants are in each round and (b) who their conversation partners are.
 3. Remove a participant at random from the first round so only five positions are filled in the network.
 4. Replace the removed participant with the earliest-created participant remaining in the lobby in the second round of conversations.
 5. Return data for the experiment showing which participants had conversations in each round and with whom.
+6. _Challenge_: Expand your solution to enable _n_ experiments to run simultaneously, where there is a 50% chance that one participant drops out in the first round of conversation in a given experiment. You may assume 7 * _n_ participants are recruited and waiting in a lobby.
+
+## Sample Data
 
 ### Participants
 
