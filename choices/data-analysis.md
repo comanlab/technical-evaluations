@@ -21,6 +21,6 @@ Suppose we want to analyze the emotional expression of all unique quotes from th
 1. Handle API requests to collect all the quote data from the API, accounting for status codes and encodings of responses. Response errors should be handled gracefully and not stop your data collection process.
 2. Store the collected API responses as a dataframe, where each response is a row.
 3. Clean the quote text only to the extent recommended for the VADER model.
-4. Apply VADER’s sentiment intensity analyzer to every quote and use the scores label each text as either positive, neutral, or negative.
+4. Apply VADER’s sentiment intensity analyzer to every quote and use the scores to label each text as either positive, neutral, or negative.
 5. Return a chart that compares sentiment labels between characters' quotes in The Office.
 6. Return a chart that compares the distribution of sentiment scores between characters' quotes.
